@@ -18,7 +18,7 @@ export function handleInteraction(player, tile, messageBox) {
       } else if (tile.pixelX === 2832 && tile.pixelY === 480) {
         message = "You found one of the rental apartments, monthly rent is $1500! Definitely not this one unless you want to starve yourself ;)";
       } else if (tile.pixelX === 912 && tile.pixelY === 480) {
-        message = "Looks like these are within your budget, but wait, what is the catch here? Oh, you need to share a room with someone, and it’s far from your school. At least you won’t go broke lol";
+        message = "Looks like these are within your budget, congratulations you have successfully found accomodation";
       } else if (tile.pixelX === 688 && tile.pixelY === 1072) {
         message = "This is CIT hospital's main building; it is also the biggest too!";
       } else if (tile.pixelX === 2976 && tile.pixelY === 1264) {
@@ -26,7 +26,7 @@ export function handleInteraction(player, tile, messageBox) {
       } else if (tile.pixelX === 3888 && tile.pixelY === 1936) {
         message = "Humber College welcomes you!";
       } else if (tile.pixelX === 3920 && tile.pixelY === 1760) {
-        message = "This is the main building where you will spend the next 2 years. Good luck!";
+        message = "Congratulations you have fouund your college successfully(task 2 completed )";
       } else if (tile.pixelX === 4432 && tile.pixelY === 1760) {
         message = "Oh, Humber residence! Wow, that is huge. Life would be much easier if you could stay here. Imagine the time you will save on traveling!";
       } else if (tile.pixelX === 4240 && tile.pixelY === 1328) {
