@@ -45,7 +45,7 @@ class MainScene extends Phaser.Scene {
       volume: 0.5,
     });
 
-    // backgroundMusic.play();
+    backgroundMusic.play();
 
     this.player = this.physics.add.sprite(4700, 590, "player");
 
